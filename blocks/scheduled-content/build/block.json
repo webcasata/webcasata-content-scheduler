@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "webcasata-cs/scheduled-content",
+  "title": "Scheduled Content",
+  "category": "widgets",
+  "icon": "clock",
+  "description": "Show or hide a block of content automatically between a start and end date/time.",
+  "keywords": [
+    "schedule",
+    "countdown",
+    "campaign",
+    "banner",
+    "expire"
+  ],
+  "textdomain": "webcasata-content-scheduler",
+  "attributes": {
+    "startDatetime": {
+      "type": "string",
+      "default": ""
+    },
+    "endDatetime": {
+      "type": "string",
+      "default": ""
+    },
+    "hideOutsideSchedule": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

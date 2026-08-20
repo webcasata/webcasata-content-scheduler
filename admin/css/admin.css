@@ -1,0 +1,43 @@
+.webcasata-cs-wrap .subsubsub {
+	margin-bottom: 8px;
+}
+
+.webcasata-cs-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: capitalize;
+	background: #f0f0f1;
+	color: #1d2327;
+}
+
+.webcasata-cs-badge--scheduled {
+	background: #e5f1ff;
+	color: #0a4b78;
+}
+
+.webcasata-cs-badge--active {
+	background: #edfaef;
+	color: #1a7431;
+}
+
+.webcasata-cs-badge--paused {
+	background: #fcf4e5;
+	color: #8a6100;
+}
+
+.webcasata-cs-badge--completed {
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.webcasata-cs-badge--failed {
+	background: #fbeaea;
+	color: #a02020;
+}
+
+.webcasata-cs-form .form-table th {
+	width: 220px;
+}
